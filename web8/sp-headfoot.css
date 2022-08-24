@@ -1,0 +1,296 @@
+@media screen and (max-width: 768px) {
+    .header_contact_area {
+        display: block
+    }
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%
+    }
+    .comment_our {
+        display: block;
+        font-size: 12px;
+        line-height: 15px;
+        padding: 5px 12px;
+        border-radius: 0;
+        margin: 0 auto;
+        text-align: center;
+        color: #fff;
+        background-color: #000;
+        position: relative;
+        bottom: 0;
+        right: 0
+    }
+    .header_wrap {
+        display: block;
+        padding: 0;
+        width: 100%;
+        min-width: 100%;
+        height: auto;
+        font-size: 0px;
+        box-shadow: 0 0 3px rgba(0,0,0,0.4)
+    }
+    .header_navi_area {
+        display: table;
+        width: 100%
+    }
+    .header_navi_top {
+        width: 100%;
+        height: auto
+    }
+    .header_logo {
+        vertical-align: middle;
+        padding-left: 13px;
+        width: 100%;
+        height: auto
+    }
+    .header_logo img {
+        width: 74.5%;
+        min-width: 200px;
+        max-width: 420px;
+        height: auto;
+        margin-top: 0
+    }
+    .header_navi_submenu {
+        display: none
+    }
+    .header_navi_spmenu {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: right;
+        padding: 8px
+    }
+    .header_navi_bottom {
+        display: none
+    }
+    .header_navi_mainmenu {
+        display: none
+    }
+    .header_wb_area,.header_contact_area {
+        display: inline-block;
+        vertical-align: middle;
+        width: 40%;
+        height: 47px
+    }
+    .wb_logo,.header_contact_btn {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        position: relative
+    }
+    .wb_logo img,.header_contact_btn img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: auto;
+        height: 32px;
+        margin: auto
+    }
+    .wb_logo {
+        width: 60%;
+        float: right
+    }
+    .wb_logo img {
+        width: 80%;
+        height: auto
+    }
+    .sns_area {
+        float: left;
+        width: 40%;
+        margin: 0
+    }
+    .sns_area a {
+        border-radius: 0;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        height: 14px;
+        padding: 5px 3px
+    }
+    .sns_area a.bl_button {
+        height: 13px
+    }
+    .header_contact_area {
+        background-color: #ffe65d;
+        width: 60%
+    }
+    .header_contact_btn img {
+        width: 84.5%;
+        max-width: 426px;
+        height: auto
+    }
+    .menu-gnavi-container {
+        display: none
+    }
+    .menu-subnavi-container {
+        display: none
+    }
+    .swt_gnavi {
+        display: block;
+        width: 48px;
+        height: 48px;
+        background-color: #000;
+        vertical-align: middle;
+        text-align: center;
+        line-height: 1em;
+        cursor: pointer;
+        font-size: 16px
+    }
+    .swt_btn {
+        position: relative;
+        top: 5px;
+        display: inline-block;
+        margin: 0 auto;
+        width: 28px;
+        height: 3px;
+        background-color: #fff;
+        font-size: 0;
+        line-height: 0
+    }
+    .swt_btn:before,.swt_btn:after {
+        position: absolute;
+        left: 0;
+        display: block;
+        width: 28px;
+        height: 3px;
+        background-color: #fff;
+        content: ''
+    }
+    .swt_btn:before {
+        top: -7px
+    }
+    .swt_btn:after {
+        top: 7px
+    }
+    .swt_btn_txt {
+        display: inline-block;
+        margin: 14px auto 0;
+        font-size: 11px;
+        font-family: "Roboto",sans-serif;
+        line-height: 1em;
+        color: #fff
+    }
+    .shade {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        background-color: rgba(0,0,0,0.5);
+        cursor: pointer
+    }
+    .menu-gnavi_sp-container {
+        display: block;
+        vertical-align: middle;
+        line-height: 1em;
+        position: fixed;
+        top: 0;
+        left: -750px;
+        z-index: 1;
+        overflow: auto;
+        max-width: 350px;
+        width: 82%;
+        height: 100%;
+        background-color: #471a03;
+        text-align: left
+    }
+    .gnavi_sp {
+        display: block;
+        margin: 0;
+        padding: 10px 8px
+    }
+    .gnavi_sp li {
+        display: block;
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,0.3);
+        border-left: none;
+        font-size: 16px;
+        line-height: 1.6em
+    }
+    .gnavi_sp li a {
+        display: block;
+        padding: 15px 5px
+    }
+    .gnavi_sp li a:before {
+        margin-right: 5px;
+        content: '\f138';
+        font-family: "FontAwesome";
+        color: #fff
+    }
+    .gnavi_sp li a:link,.gnavi_sp li a:visited {
+        color: #fff;
+        text-decoration: none
+    }
+    .gnavi_sp li a:hover,.gnavi_sp li a:active {
+        color: #f48334
+    }
+    footer {
+        padding: 28px 0 10px;
+        width: auto
+    }
+    .footer-logo {
+        margin-bottom: 15px;
+        width: 50%;
+        max-width: 380px
+    }
+    .footer-info {
+        margin-bottom: 10px
+    }
+    .footer-add {
+        font-size: 14px;
+        margin-bottom: 20px
+    }
+    .footer-tel {
+        margin-bottom: 20px
+    }
+    .footer-fax {
+        margin-bottom: 30px
+    }
+    .menu-fnavi-container {
+        margin: 35px 0 25px
+    }
+    .menu-fnavi-container ul {
+        width: 80%;
+        margin: 0 auto
+    }
+    .menu-fnavi-container ul li,.menu-fnavi-container ul li a {
+        display: block;
+        text-align: center
+    }
+    .menu-fnavi-container ul li {
+        margin: 0;
+        padding: 0;
+        border: none;
+        border-bottom: 1px solid #ddd
+    }
+    .menu-fnavi-container ul li:first-child {
+        border-top: 1px solid #ddd
+    }
+    .menu-fnavi-container ul li a {
+        position: relative;
+        padding: 14px 10px 14px 0;
+        margin: 0 auto;
+        font-size: 16px
+    }
+    .menu-fnavi-container ul li a:hover,.menu-fnavi-container ul li a:active {
+        text-decoration: none
+    }
+    .menu-fnavi-container ul li a:after {
+        position: absolute;
+        right: 5px;
+        color: #999;
+        content: '\f105';
+        font-size: 20px;
+        font-family: "FontAwesome"
+    }
+    .footer-copyright {
+        font-size: 12px
+    }
+}
